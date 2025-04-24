@@ -48,8 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<div style='text-align:center; margin-top:20px;'>✅ Datos guardados correctamente. Redirigiendo...</div>";
         echo "<script>
             setTimeout(() => {
-                window.location.href = '../paginas/index.php';
-            }, 2000); // Redirige después de 2 segundos
+                window.location.href = '../../views/index.php';
+            }, 2000);
           </script>";
     } else {
         echo "❌ Error al insertar en DatosPersonales: " . $conexion->error;

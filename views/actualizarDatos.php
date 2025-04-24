@@ -63,6 +63,13 @@ $row = $result->fetch_assoc();
     <div class="container mt-5">
         <div class="card p-4">
             <h1 class="text-center mb-4">Editar Datos Personales</h1>
+            <!--- ELIMINAR CON POST--->
+            <form action="../includes/controllers/eliminar.php" method="post"
+                onsubmit="return confirm('¿Estás seguro de que deseas eliminar este registro? Esta acción no se puede deshacer.');" class="mt-2 text-end">
+                <input type="hidden" name="id" value="<?= $row['idDatosPersonales'] ?>">
+                <input type="submit" class="btn btn-danger" value="Eliminar Registro">
+            </form>
+
             <form action="../includes/controllers/actualizar.php" method="post">
                 <input type="hidden" name="id" value="<?= $row['idDatosPersonales'] ?>">
 
@@ -149,13 +156,15 @@ $row = $result->fetch_assoc();
                     </div>
                 </div>
 
-                <!-- BOTÓN -->
                 <div class="mt-4 text-end">
                     <a href="../includes/controllers/actualizar.php" class="btn btn-secondary">Cancelar</a>
                     <input type="submit" class="btn btn-primary" value="Actualizar Datos">
                 </div>
             </form>
+
         </div>
+        </form>
+    </div>
     </div>
 </body>
 

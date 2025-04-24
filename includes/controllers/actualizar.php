@@ -9,7 +9,6 @@ if (!isset($_SESSION['usuario'])) {
     exit();
 }
 
-// Validar que llegaron los datos esperados
 if (
     !isset(
         $_POST['id'],

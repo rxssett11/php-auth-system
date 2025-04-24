@@ -34,7 +34,6 @@ if (!$result) {
             <h1 class="text-center mb-4">Formulario de Datos Personales</h1>
             <form action="../includes/controllers/registro.php" method="post">
                 
-                <!-- DATOS PERSONALES -->
                 <div class="form-section">
                     <h2>Datos Personales</h2>
                     <div class="row g-3">
@@ -65,7 +64,6 @@ if (!$result) {
                     </div>
                 </div>
 
-                <!-- DIRECCIÓN -->
                 <div class="form-section">
                     <h2>Dirección</h2>
                     <div class="row g-3">
@@ -106,7 +104,6 @@ if (!$result) {
                     </div>
                 </div>
 
-                <!-- CONTACTO -->
                 <div class="form-section">
                     <h2>Contacto</h2>
                     <div class="row g-3">
@@ -122,8 +119,7 @@ if (!$result) {
                     </div>
                 </div>
 
-                <!-- BOTÓN -->
-                <div class="mt-4">
+                    <div class="mt-4">
                     <input type="submit" class="btn btn-success btn-guardar" value="Guardar Datos">
                 </div>
             </form>

@@ -1,4 +1,3 @@
-// Archivo generado automáticamente
 const colonias = [
   {
     "id": 1,
