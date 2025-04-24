@@ -3,7 +3,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)  
 # 🔐 PHP Auth System  
 
-**Sistema de autenticación seguro en PHP** con registro, login, gestión de sesiones y actualización de datos. Ideal para proyectos que requieran un módulo de autenticación ligero y personalizable.  
+**Sistema de autenticación seguro en PHP** con registro, login, gestión de sesiones y actualización de datos. 
+Ideal para proyectos que requieran un módulo de autenticación ligero y personalizable.  
 
 ## ✨ Características  
 - ✅ **Registro y Login** con validación de datos.  
